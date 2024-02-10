@@ -48,7 +48,7 @@ namespace Practice_Aggregation_and_Containment_JuanHernandez
         }
         public override string ToString()
         {
-            return $"{ClassName} {ClassNumber} - Room: {RoomNumber} - Instructor: {Instructor} - Number of Students:";
+            return $"{ClassName} {ClassNumber} - Room: {RoomNumber} - Instructor: {Instructor} - Number of Students:"; //  {_classRoster.Count} doesnt work
         }
     }
 }
